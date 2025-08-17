@@ -30,7 +30,7 @@ const Footer = () => {
   const currentContent = content[currentLanguage as "en" | "kr"];
 
   return (
-    <footer className="bg-dark-blue text-white py-12">
+    <footer className="bg-dark-blue text-white py-12 min-h-screen">
       <div className="container mx-auto px-6">
         <div className="flex flex-col md:flex-row justify-between items-center">
           <div className="mb-6 md:mb-0">
