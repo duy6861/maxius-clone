@@ -221,7 +221,7 @@ const Features = () => {
     >
       <div className="container mx-auto px-10 flex-1 flex items-center justify-center">
         {/* 4 columns - chiều cao 100% */}
-        <div className="w-full h-full grid grid-cols-1 md:grid-cols-4 gap-8">
+        <div className="w-full pt-1.5 md:pt-0 h-full grid grid-cols-1 md:grid-cols-4 gap-8">
           {currentTabs.map((tab, index) => (
             <motion.div
               key={tab.id}

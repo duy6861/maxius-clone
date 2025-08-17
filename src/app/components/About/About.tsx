@@ -50,8 +50,16 @@ const About = () => {
       id="about"
       className="min-h-screen w-full bg-black text-white flex items-center justify-center relative overflow-hidden"
     >
-      {/* Background */}
-      <div className="absolute inset-0 bg-[url('/images/background-tech.jpg')] bg-cover bg-center opacity-30"></div>
+      {/* Background - sử dụng hình ảnh từ public */}
+      <div
+        className="absolute inset-0 bg-cover bg-center bg-no-repeat"
+        style={{
+          backgroundImage: "url('/3d-background_1155322.png')",
+        }}
+      ></div>
+
+      {/* Overlay để làm tối background nếu cần
+      <div className="absolute inset-0 bg-black bg-opacity-70"></div> */}
 
       {/* Content */}
       <div className="container mx-auto px-6 relative z-10">
